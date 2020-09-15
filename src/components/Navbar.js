@@ -55,17 +55,17 @@ const menuItems=[
     {
         listIcon:<AssignmentInd/>,
         listText:"Resume",
-        listPath:"resume"
+        listPath:"/resume"
     },
     {
         listIcon:<Apps/>,
         listText:"Portfolio",
-        listPath:"portfolio"
+        listPath:"/portfolio"
     },
     {
         listIcon:<ContactMail/>,
         listText:"Contacts",
-        listPath:"contact"
+        listPath:"/contanct"
     }
 ]
 
