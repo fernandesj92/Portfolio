@@ -41,10 +41,10 @@ const Portfolio = () => {
                     <CardActionArea>
                         <CardMedia component="img" alt="Project 1" height="140" image={project1}/>
                         <CardContent>
-                            <Typography gutterBottom varient="h5">
+                            <Typography gutterBottom variant="h5">
                                 Project 1
                             </Typography>
-                            <Typography varient="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p">
                                 Project Details
                             </Typography>
                         </CardContent>
@@ -67,10 +67,10 @@ const Portfolio = () => {
                     <CardActionArea>
                         <CardMedia component="img" alt="Project 1" height="140" image={project1}/>
                         <CardContent>
-                            <Typography gutterBottom varient="h5">
+                            <Typography gutterBottom variant="h5">
                                 Project 1
                             </Typography>
-                            <Typography varient="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p">
                                 Project Details
                             </Typography>
                         </CardContent>

@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/'
 import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
+import Contacts from "./components/Contacts"
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
    <Route exact path="/" component={Home}></Route>
    <Route path="/resume" component={Resume}></Route>
    <Route path="/portfolio" component={Portfolio}></Route>
+   <Route path="/contacts" component={Contacts}></Route>
 
 </>
   );
