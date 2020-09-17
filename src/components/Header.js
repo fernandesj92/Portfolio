@@ -2,13 +2,13 @@ import React from 'react'
 import {makeStyles} from "@material-ui/core/styles"
 import {Typography,Avatar,Grid,Box} from "@material-ui/core"
 import Typed from "react-typed"
-import avatar from "../images/avatar.png"
+import avatar from "../images/avatar-jon.png"
 
 //CSS Styles
 const useStyles=makeStyles(theme=>({
     avatar:{
-        width:theme.spacing(15),
-        height:theme.spacing(15),
+        width:theme.spacing(25),
+        height:theme.spacing(25),
         margin:theme.spacing(1)
     },
     title:{
@@ -37,10 +37,10 @@ const Header = () => {
             <Avatar className={classes.avatar} src={avatar} alt="Jonathan Fernandes" />
             </Grid>
           
-           <Typography className={classes.title}  varient="h4">
+           <Typography className={classes.title}  variant="h3">
 <Typed strings ={["Jonathan Fernandes"]} typeSpeed={40}/>
            </Typography>
-           <Typography className={classes.subTitle} varient="h4">
+           <Typography className={classes.subTitle} variant="h4">
 <Typed strings ={["Blockchain","Software Developer","Tech Enthusiast"]} typeSpeed={40} backSpeed={60} loop/>
            </Typography>
         </Box>

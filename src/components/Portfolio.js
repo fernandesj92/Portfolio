@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
 import Navbar from './Navbar'
-import project1 from '../images/html-css-javascript-lg.jpg'
+import project1 from '../images/react-mui.png'
 
 
 
@@ -42,10 +42,12 @@ const Portfolio = () => {
                         <CardMedia component="img" alt="Project 1" height="140" image={project1}/>
                         <CardContent>
                             <Typography gutterBottom variant="h5">
-                                Project 1
+                                This Website
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Project Details
+                               This was my first React with Material UI project. This project was done with the help of a video from Youtube.
+                               The reason for making this website in React and MUI was to firstly get my hands dirty with React js and to also learn about Material UI.
+                                As time passes I will continue to harness my skills in React and continue to improve this website.
                             </Typography>
                         </CardContent>
                         </CardActionArea>
@@ -62,7 +64,7 @@ const Portfolio = () => {
                 </Grid>
 
                 {/* Second Project */}
-                <Grid item xs={12} sm={8} md={6} lg={4}>
+              {/*}  <Grid item xs={12} sm={8} md={6} lg={4}>
                 <Card className={classes.cardContainer}>
                     <CardActionArea>
                         <CardMedia component="img" alt="Project 1" height="140" image={project1}/>
@@ -85,7 +87,7 @@ const Portfolio = () => {
                         </CardActions>
                      
                 </Card>
-                </Grid>
+                </Grid>*/}
             </Grid>
         </Box>
     )

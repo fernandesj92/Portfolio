@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
+import Footer from './Footer'
 import {makeStyles} from '@material-ui/core/styles'
 import MobileRightMenuSlider from '@material-ui/core/Drawer'
 import {
@@ -21,10 +22,9 @@ import {
     Home,
     Apps,
     ContactMail,
-    Block
+    
 } from "@material-ui/icons"
-import App from '../App';
-import avatar from "../images/avatar.png"
+import avatar from "../images/avatar-jon.png"
 
 //CSS Styles
 const useStyles = makeStyles(theme => ({
@@ -117,6 +117,7 @@ const Navbar = () => {
                open={state.right}
                onClose={toggleSlider("right",false)}>
                    {sideList("right")}
+                   <Footer/>
                    </MobileRightMenuSlider>
                     </Toolbar>
                 </AppBar>
