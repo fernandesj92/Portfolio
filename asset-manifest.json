@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8c73ac4b.chunk.css",
-    "main.js": "/portfolio/static/js/main.88fa65db.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.88fa65db.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c92414bc.chunk.css",
+    "main.js": "/portfolio/static/js/main.d3a26dad.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d3a26dad.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.59cd2a95.chunk.js": "/portfolio/static/js/2.59cd2a95.chunk.js",
-    "static/js/2.59cd2a95.chunk.js.map": "/portfolio/static/js/2.59cd2a95.chunk.js.map",
+    "static/js/2.210cbc2a.chunk.js": "/portfolio/static/js/2.210cbc2a.chunk.js",
+    "static/js/2.210cbc2a.chunk.js.map": "/portfolio/static/js/2.210cbc2a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.275cae60942e7d32f83d6ee3ca33704d.js": "/portfolio/precache-manifest.275cae60942e7d32f83d6ee3ca33704d.js",
+    "precache-manifest.8fdc1fc7691b7ee928288134ab945ed9.js": "/portfolio/precache-manifest.8fdc1fc7691b7ee928288134ab945ed9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8c73ac4b.chunk.css.map": "/portfolio/static/css/main.8c73ac4b.chunk.css.map",
-    "static/js/2.59cd2a95.chunk.js.LICENSE.txt": "/portfolio/static/js/2.59cd2a95.chunk.js.LICENSE.txt",
-    "static/media/avatar.png": "/portfolio/static/media/avatar.7c8e5f50.png",
-    "static/media/App.css": "/portfolio/static/media/coffee-apple.2dd213aa.jpg"
+    "static/css/main.c92414bc.chunk.css.map": "/portfolio/static/css/main.c92414bc.chunk.css.map",
+    "static/js/2.210cbc2a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.210cbc2a.chunk.js.LICENSE.txt",
+    "static/media/avatar-jon.png": "/portfolio/static/media/avatar-jon.63f39738.png",
+    "static/media/App.css": "/portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/react-mui.png": "/portfolio/static/media/react-mui.4c096439.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.59cd2a95.chunk.js",
-    "static/css/main.8c73ac4b.chunk.css",
-    "static/js/main.88fa65db.chunk.js"
+    "static/js/2.210cbc2a.chunk.js",
+    "static/css/main.c92414bc.chunk.css",
+    "static/js/main.d3a26dad.chunk.js"
   ]
 }
